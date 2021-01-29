@@ -1,0 +1,13 @@
+LEFT		returns leftmost characters			LEFT("ABCDEF", 3) --> "ABC"
+RIGHT		returns rightmost characters			RIGHT("ABCDEF", 3) --> "DEF"
+MID		returns string from position x, length y	MID("ABCDEF", 2, 3) --> "BCD"
+ONECHAR		returns single character at position x		ONECHAR("New York", 5) --> "Y"
+LENGTH		returns length of string			LENGTH("HappyDays") --> 10
+LCASE		returns lower case character (for chars)	LCASE("W") --> "w"
+UCASE 		returns upper case character (for chars)	UCASE("h") --> "H"
+TO_UPPER	returns upper case string (for strings)		TO_UPPER("Disk Error 27") --> "DISK ERROR 27"
+TO_LOWER	returns lower case string (for strings)		TO_LOWER("ERROR-Invalid") --> "error-invalid"
+NUM_TO_STRING	changes a number into a string			NUM_TO_STRING(87.5) --> "87.5"
+STRING_TO_NUM	changes a string into a REAL number		STRING_TO_NUM("87.5") --> 87.5
+INT		changes REAL number into an integer		INT(27.4512) --> 27
+ASC 		changes a character into its ASCII number	ASC("A") --> 65
